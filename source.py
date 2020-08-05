@@ -1,7 +1,7 @@
 from PIL import Image
 import sys
 
-filename = sys.argv[1]
+filename = input("Enter file name: ")
 im = Image.open(filename)
 
 print("1.Change format\n2.Resize\n3.Crop\n4.PasteImage\n5.Rotate\n6.Flip")
